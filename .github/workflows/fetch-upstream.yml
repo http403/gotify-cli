@@ -49,4 +49,4 @@ jobs:
       - name: Fork Sync
         uses: TG908/fork-sync@v1
         with:
-          github_token: ${{ secret.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
